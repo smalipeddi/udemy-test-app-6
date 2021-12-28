@@ -2,6 +2,8 @@
 
 <%= render @article %>
 
+<p><%=@article.title%></p>
+<p><%=@article.description%></p>
 <div>
   <%= link_to "Edit this article", edit_article_path(@article) %> |
   <%= link_to "Back to articles", articles_path %>
