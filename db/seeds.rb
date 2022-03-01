@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+
+articles = Article.create([{ title: "sunitha first seed article", description: "This article is created using seed data" },
+                           { title: "sunitha second seed article", description: "This article is created using seed data" }])
